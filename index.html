@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0;'>
+    <title >Final_Project</title>
+    <link rel='stylesheet' href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css'>
+    <link href="http://maxcdn.bootstrapcdn.com/bootswatch/3.3.0/slate/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/jquery.bxslider.css">
+    <link rel="stylesheet" type="text/css" href="styles/jquery.fullPage.css">
+    <link rel='stylesheet' href='styles/main.css'>
+</head>
+<body>
+
+
+    <div id="fullpage">
+
+        <div class="section sec1">
+            <div class="about-container">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+            <div class="slide">
+                <div class="img-holder-1"></div>
+            </div>
+            <div class="slide">
+                <div class="img-holder-2"></div>
+            </div>
+            <div class="slide">
+                <div class="img-holder-3"></div>
+            </div>
+            <div class="slide">
+                <div class="img-holder-4"></div>
+            </div>
+        </div>
+
+        <div class="section sec2"> 
+            <div id="container">
+                <div class="prod-container cf">
+                    <div class="grid-sizer"></div>
+                </div>
+                Product   
+            </div>
+        </div> <!-- section 2 -->
+
+
+        <div class="section sec3">
+<form class="form-horizontal">
+    <fieldset>
+        <legend>Contact us</legend>
+            <div class="form-group">
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+    </div>
+    <div class="form-group">
+      <div class="col-lg-10">
+        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-lg-10">
+        <textarea class="form-control" rows="3" id="textArea"></textarea>
+      </div>
+    </div>
+    <div class="form-group">
+      <!-- <label class="col-lg-2 control-label"></label> -->
+      <div class="col-lg-10">
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+            Option one is this
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+            Option two can be something else
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="select" class="col-lg-2 control-label"></label>
+      <div class="col-lg-10">
+        <select class="form-control" id="select">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+        <br>
+        <select multiple="" class="form-control">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button class="btn btn-default">Cancel</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </fieldset>
+</form>
+        </div>
+    </div>
+
+
+<script type="productItem/template" id="productItem">
+    <div class="prod-item-container prod">
+        <div class="prod-name"><%= alt %></div>
+        <div class="prod-link"><a href="<%= href %>" target="_blank">View Product</a></div>
+        <div class="prod-img"><img src="<%= src %>"></div>
+    </div>
+</script>
+
+
+
+
+
+
+
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+    <script src='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js'></script>
+    <script src="javascript/jquery.fullPage.min.js"></script>
+    <script src="javascript/jquery.bxslider.min.js"></script>
+    <script src="http://masonry.desandro.com/masonry.pkgd.min.js"></script>
+    <script src="javascript/underscore.js"></script>
+    <script src='javascript/main.js'></script>
+</body>
+</html>
